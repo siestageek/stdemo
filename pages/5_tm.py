@@ -20,7 +20,8 @@ st.title('텍스트마이닝 시각화 📑')
 
 # 폰트 및 형태소 분석기 초기화
 #fontpath = 'c:/Windows/Fonts/malgun.ttf'
-fontpath = os.getcwd() + '/font/malgun.ttf'
+fontpath = os.getcwd() + '/fonts/malgun.ttf'
+
 twitter = Okt()
 
 with open('./data/trump_ko.txt', encoding='utf-8') as f:
